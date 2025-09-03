@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANGEL EMANUEL MUÑIZ FLORES</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      color: #333;
+    }
+    nav {
+      background-color: #ff6f61;
+    }
+    .brand-logo {
+      font-weight: bold;
+    }
+    .section {
+      padding: 4rem 0;
+    }
+    .carousel img {
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    }
+    .skills {
+      background-color: #fff3e0;
+      padding: 2rem;
+      border-radius: 12px;
+      margin-top: 2rem;
+    }
+    .skills .chip {
+      background-color: #ffab91;
+      color: #fff;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #ff6f61;
+    }
+    footer p {
+      margin: 0;
+      padding: 1rem 0;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo">ANGEL EMANUEL</a>
+    </div>
+  </nav>
+
+  <div class="container section center-align">
+    <h2 class="titulazo">¡Hola! Soy Ángel Emanuel</h2>
+    <p class="parrafito1 flow-text">Soy un programador apasionado por crear soluciones digitales elegantes y funcionales. Me encanta transformar ideas en experiencias web.</p>
+  </div>
+
+  <div class="container section center-align">
+    <h3 class="titulazo">¿Qué sé hacer?</h3>
+    <p class="parrafito2 flow-text">Trabajo con tecnologías como XAMPP, JavaScript, HTML, Bootstrap y Materialize. Me especializo en interfaces limpias, responsivas y atractivas.</p>
+  </div>
+
+  <div class="container section">
+    <h4 class="titulazo center-align">Galería de proyectos</h4>
+    <div class="carousel carousel-slider center">
+      <div class="carousel-item" href="#one"><img src="foto1.png"></div>
+      <div class="carousel-item" href="#two"><img src="foto2.png"></div>
+      <div class="carousel-item" href="#three"><img src="foto3.png"></div>
+      <div class="carousel-item" href="#four"><img src="foto4.png"></div>
+      <div class="carousel-item" href="#five"><img src="foto5.png"></div>
+    </div>
+  </div>
+
+  <div class="container section center-align">
+    <h5 class="titulazo">¿Por qué contratarme?</h5>
+    <p class="parrafito3 flow-text">Porque combino creatividad, técnica y compromiso. Cada línea de código que escribo tiene propósito y estilo.</p>
+  </div>
+
+  <div class="container skills center-align">
+    <h5 class="titulazo">Tecnologías que domino</h5>
+    <div class="chip">XAMPP</div>
+    <div class="chip">JavaScript</div>
+    <div class="chip">HTML</div>
+    <div class="chip">Bootstrap</div>
+    <div class="chip">Materialize</div>
+  </div>
+
+  <footer class="page-footer">
+    <div class="container center-align">
+      <p class="white-text">ANGEL EMANUEL MUÑIZ FLORES - Programador Web Profesional</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.carousel');
+      M.Carousel.init(elems, {
+        fullWidth: true,
+        indicators: true
+      });
+    });
+  </script>
+</body>
+</html>
